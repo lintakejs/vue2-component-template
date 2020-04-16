@@ -1,3 +1,5 @@
+const pkg = require('./package.json')
+
 const templateVersion = pkg.version
 
 module.exports = {
