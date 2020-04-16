@@ -1,3 +1,5 @@
+const templateVersion = pkg.version
+
 module.exports = {
   helpers: {
     if_or(v1, v2, options) {
