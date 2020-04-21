@@ -70,7 +70,7 @@ const webpackConfig = merge(baseWebpackConfig, {
 })
 
 webpackConfig.entry = {
-  {{ name }}: './src/index.ts'
+  test: './src/index.ts'
 }
 
 module.exports = webpackConfig
