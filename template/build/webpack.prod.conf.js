@@ -59,7 +59,7 @@ const webpackConfig = merge(baseWebpackConfig, {
       }
     }),
     new HtmlWebpackPlugin({
-      filename: config.build.index,
+      filename: 'index.html',
       template: 'index.html',
       inject: true,
       minify: {

@@ -6,6 +6,9 @@ module.exports = {
     env: require('./dev.env'),
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
+    proxyTable: {},
+    port: process.env.PORT || 3000,
+    autoOpenBrowser: true,
     useEslint: true,
     showEslintErrorsInOverlay: false,
     cssSourceMap: false
@@ -15,7 +18,6 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     assetsRoot: path.resolve(__dirname, '../dist'),
-    index: path.resolve(__dirname, '../dist/index.html'),
     productionSourceMap: true,
     productionGzip: false,
     productionGzipExtensions: ['js', 'css'],
